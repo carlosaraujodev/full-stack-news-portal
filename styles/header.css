@@ -1,7 +1,7 @@
 #primary {
     padding-block: 20px;
 
-    div{
+    div {
         display: flex;
         align-items: center;
         gap: 8px;
@@ -17,7 +17,7 @@
     }
 }
 
-#secondary{
+#secondary {
     padding-block: 14px;
     border: solid 1px var(--stroke-color);
     border-inline: none;

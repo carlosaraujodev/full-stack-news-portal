@@ -24,6 +24,7 @@ section header {
 
 #featured {
     grid-area: featured;
+
     img {
         height: 100%;
         object-fit: cover;
@@ -61,6 +62,7 @@ section header {
 
 #weekly {
     grid-area: weekly;
+
     &>div {
         grid-template-columns: repeat(4, 292px);
     }
@@ -69,47 +71,48 @@ section header {
         height: 160px;
     }
 
-    figure{
+    figure {
         position: relative;
 
-        .content-tag{
+        .content-tag {
             position: absolute;
             top: 8px;
             left: 8px;
         }
 
-        p{
+        p {
             margin-top: 8px;
             font-weight: 800;
         }
     }
 }
 
-#ai{
+#ai {
     grid-area: ai;
-    img{
+
+    img {
         width: 176px;
         aspect-ratio: 1/1;
         object-fit: cover;
     }
 
-    h3{
+    h3 {
         margin-block: 8px 4px;
     }
 }
 
-aside{
+aside {
     grid-area: aside;
 }
 
-#more{
+#more {
     margin-top: 32px;
 
-    h3{
+    h3 {
         margin-top: 8px;
     }
 
-    img{
+    img {
         width: 72px;
         aspect-ratio: 1/1;
         object-fit: cover;
